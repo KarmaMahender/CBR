@@ -1,0 +1,64 @@
+{#{% extends 'index.html' %}#}
+{% block content %}
+    <div class="panel">
+        <section>
+            <div class="row center-block">
+                <h3>Search Results</h3>
+            </div>
+            <div class="panel panel-body">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <div class="panel-collapse">
+                            <h3>Flipkart</h3>
+
+                            {% if response and response.FlipKartResponse %}
+                                {% block searchresultsfk %}{% endblock %}
+                            {% else %}
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8">
+                                        There are no search results.
+                                    </div>
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+
+                        <div class="panel-collapse">
+                            <h3>Amazon</h3>
+
+                            {% if response and response.AmazonResponse  %}
+                                {% block searchresultsama %}{% endblock %}
+                            {% else %}
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8">
+                                        There are no search results.
+                                    </div>
+                                </div>
+                            {% endif %}
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+
+                        <div class="panel-collapse">
+                            <h3>Snapdeal</h3>
+                            {% if response and response.SnapdealResponse  %}
+                                {% block searchresultssd %}{% endblock %}
+                            {% else %}
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8">
+                                        There are no search results.
+                                    </div>
+                                </div>
+                            {% endif %}
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+{% endblock %}

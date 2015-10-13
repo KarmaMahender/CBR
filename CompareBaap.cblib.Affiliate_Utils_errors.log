@@ -1,0 +1,47 @@
+[09/19/2015 11:50:22 PM] [INFO] : motorola e
+[09/19/2015 11:50:22 PM] [INFO] : getsearchonkeywords() starts
+[09/19/2015 11:50:22 PM] [INFO] : parameters : Count : 10 keywords : motorola%20e
+[09/19/2015 11:50:22 PM] [INFO] : executecall() starts
+[09/19/2015 11:50:22 PM] [INFO] : parameters : url : https://affiliate-api.flipkart.net/affiliate/search/json?query=motorola%20e&resultCount=10
+[09/19/2015 11:50:22 PM] [ERROR] : Expecting value: line 1 column 1 (char 0)
+[09/19/2015 11:50:22 PM] [INFO] : getsearchonkeywords() ends
+[09/19/2015 11:50:40 PM] [INFO] : motorola e
+[09/19/2015 11:50:50 PM] [INFO] : getsearchonkeywords() starts
+[09/19/2015 11:50:51 PM] [INFO] : parameters : Count : 10 keywords : motorola%20e
+[09/19/2015 11:50:56 PM] [INFO] : executecall() starts
+[09/19/2015 11:50:59 PM] [INFO] : parameters : url : https://affiliate-api.flipkart.net/affiliate/search/json?query=motorola%20e&resultCount=10
+[09/19/2015 11:51:29 PM] [ERROR] : Expecting value: line 1 column 1 (char 0)
+[09/19/2015 11:51:29 PM] [INFO] : getsearchonkeywords() ends
+[09/19/2015 11:51:31 PM] [INFO] : motorola e
+[09/19/2015 11:51:49 PM] [INFO] : getsearchonkeywords() starts
+[09/19/2015 11:51:49 PM] [INFO] : parameters : Count : 10 keywords : motorola%20e
+[09/19/2015 11:51:49 PM] [INFO] : executecall() starts
+[09/19/2015 11:51:49 PM] [INFO] : parameters : url : https://affiliate-api.flipkart.net/affiliate/search/json?query=motorola%20e&resultCount=10
+[09/19/2015 11:52:49 PM] [ERROR] : Expecting value: line 1 column 1 (char 0)
+[09/19/2015 11:52:49 PM] [INFO] : getsearchonkeywords() ends
+[09/19/2015 11:52:55 PM] [INFO] : nokia lumia 1020
+[09/19/2015 11:52:58 PM] [INFO] : getsearchonkeywords() starts
+[09/19/2015 11:52:58 PM] [INFO] : parameters : Count : 10 keywords : nokia%20lumia%201020
+[09/19/2015 11:52:58 PM] [INFO] : executecall() starts
+[09/19/2015 11:52:58 PM] [INFO] : parameters : url : https://affiliate-api.flipkart.net/affiliate/search/json?query=nokia%20lumia%201020&resultCount=10
+[09/19/2015 11:53:03 PM] [ERROR] : Expecting value: line 1 column 1 (char 0)
+[09/19/2015 11:53:04 PM] [INFO] : getsearchonkeywords() ends
+[09/19/2015 11:54:20 PM] [INFO] : nokia lumia 1020
+[09/19/2015 11:54:22 PM] [INFO] : getsearchonkeywords() starts
+[09/19/2015 11:54:22 PM] [INFO] : parameters : Count : 10 keywords : nokia%20lumia%201020
+[09/19/2015 11:54:22 PM] [INFO] : executecall() starts
+[09/19/2015 11:54:22 PM] [INFO] : parameters : url : https://affiliate-api.flipkart.net/affiliate/search/json?query=nokia%20lumia%201020&resultCount=10
+[09/19/2015 11:54:24 PM] [ERROR] : Expecting value: line 1 column 1 (char 0)
+[09/19/2015 11:54:24 PM] [INFO] : getsearchonkeywords() ends
+[09/19/2015 11:54:26 PM] [INFO] : getsearchonkeywords() starts
+[09/19/2015 11:54:26 PM] [INFO] : parameters : Count : 10 keywords : nokia%20lumia%201020
+[09/19/2015 11:54:26 PM] [INFO] : executecall() starts
+[09/19/2015 11:54:26 PM] [INFO] : parameters : url : https://affiliate-api.flipkart.net/affiliate/search/json?query=nokia%20lumia%201020&resultCount=10
+[09/19/2015 11:54:27 PM] [ERROR] : Expecting value: line 1 column 1 (char 0)
+[09/19/2015 11:54:27 PM] [INFO] : getsearchonkeywords() ends
+[09/19/2015 11:54:28 PM] [INFO] : getsearchonkeywords() starts
+[09/19/2015 11:54:28 PM] [INFO] : parameters : Count : 10 keywords : nokia%20lumia%201020
+[09/19/2015 11:54:28 PM] [INFO] : executecall() starts
+[09/19/2015 11:54:28 PM] [INFO] : parameters : url : https://affiliate-api.flipkart.net/affiliate/search/json?query=nokia%20lumia%201020&resultCount=10
+[09/19/2015 11:54:29 PM] [ERROR] : Expecting value: line 1 column 1 (char 0)
+[09/19/2015 11:54:29 PM] [INFO] : getsearchonkeywords() ends

@@ -1,0 +1,70 @@
+{% extends 'searchresults.html' %}
+{% block searchresultsfk %}
+    {% for res in response.FlipKartResponse %}
+        <div class="panel resultsbox">
+            <div class="panel-heading">
+                <h5 class="h5">{{ res.title }}
+                </h5>
+                {% if res.productBrand != "" %}
+                    <h4 class="h4">
+                        <div class="col-md-3 col-sm-3">{{ res.productBrand }}
+                        </div>
+                    </h4>
+                {% endif %}
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3">
+                        <a href="{{ res.product_url }}">
+                            <img src="{{ res.img_url }}" alt="{{ res.title }}">
+                        </a>
+                    </div>
+                </div>
+                    <ul class="list-group">
+                        {% if res.color != "" %}
+                            <li class="list-group-item">
+                                {{ res.color }}
+                            </li>
+                        {% endif %}
+
+                        <li class="list-group-item">
+                            {{ res.sellingCurrency }} {{ res.sellingPrice }}
+                            <span class="badge badge-info" title="Discount Available">{{ res.discountPercentage}} %</span>
+                        </li>
+
+                        <li class="list-group-item">
+                            {{ res.maximumRetailCurrency }} {{ res.maximumRetailPrice }}
+                        </li>
+                    </ul>
+
+                    <ul class="list-group list-inline">
+                        <li class="list-group-item">
+                            {% if res.inStock %}
+                                <span class="glyphicon glyphicon-ok-sign" title="In Stock"> </span>
+
+                            {% else %}
+                                <span class="glyphicon glyphicon-remove-sign" title="In Stock"> </span>
+                            {% endif %}
+                        </li>
+                        <li class="list-group-item">
+                            {% if res.codAvailable %}
+                                <span class="glyphicon glyphicon-ok-sign" title="COD Available"> </span>
+
+                            {% else %}
+                                <span class="glyphicon glyphicon-remove-sign" title="COD Available"> </span>
+                            {% endif %}
+                        </li>
+
+                        <li class="list-group-item">
+                            {% if res.emiAvailable %}
+                                <span class="glyphicon glyphicon-ok-sign" title="EMI Available"> </span>
+
+                            {% else %}
+                                <span class="glyphicon glyphicon-remove-sign" title="EMI Available"> </span>
+                            {% endif %}
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}

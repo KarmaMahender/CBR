@@ -1,0 +1,21 @@
+[09/19/2015 11:41:28 PM] [INFO] : motorola e
+[09/19/2015 11:41:28 PM] [INFO] : getsearchonkeywords() starts
+[09/19/2015 11:41:28 PM] [INFO] : parameters : Count : 10 keywords : motorola%20e
+[09/19/2015 11:41:28 PM] [INFO] : executecall() starts
+[09/19/2015 11:41:28 PM] [INFO] : parameters : url : https://affiliate-api.flipkart.net/affiliate/search/json?query=motorola%20e&resultCount=10
+[09/19/2015 11:41:28 PM] [ERROR] : Expecting value: line 1 column 1 (char 0)
+[09/19/2015 11:41:28 PM] [INFO] : getsearchonkeywords() ends
+[09/19/2015 11:42:47 PM] [INFO] : motorola e
+[09/19/2015 11:42:47 PM] [INFO] : getsearchonkeywords() starts
+[09/19/2015 11:42:47 PM] [INFO] : parameters : Count : 10 keywords : motorola%20e
+[09/19/2015 11:42:47 PM] [INFO] : executecall() starts
+[09/19/2015 11:42:47 PM] [INFO] : parameters : url : https://affiliate-api.flipkart.net/affiliate/search/json?query=motorola%20e&resultCount=10
+[09/19/2015 11:42:48 PM] [ERROR] : Expecting value: line 1 column 1 (char 0)
+[09/19/2015 11:42:48 PM] [INFO] : getsearchonkeywords() ends
+[09/19/2015 11:46:08 PM] [INFO] : motorola e
+[09/19/2015 11:46:08 PM] [INFO] : getsearchonkeywords() starts
+[09/19/2015 11:46:08 PM] [INFO] : parameters : Count : 10 keywords : motorola%20e
+[09/19/2015 11:46:08 PM] [INFO] : executecall() starts
+[09/19/2015 11:46:08 PM] [INFO] : parameters : url : https://affiliate-api.flipkart.net/affiliate/search/json?query=motorola%20e&resultCount=10
+[09/19/2015 11:46:09 PM] [ERROR] : Expecting value: line 1 column 1 (char 0)
+[09/19/2015 11:46:09 PM] [INFO] : getsearchonkeywords() ends
